@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Mohammadreza Gharahgozlee</title>
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 ">
+                <div class="card card-body h100" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/reza_gharahgozlee.jpg' %} " alt="Mohammadreza Gharahgozlee">
+                    <hr>
+                    <h4>Hi I'm Mohammadreza </h4>
+                    <p>I am a software engineer who enjoys learning and exploring new technologies.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <h4>Profile</h4>
+                    <hr>
+                    <p>Software developer with strong experience in Python, web development, and data analysis. Skilled in building full-stack applications using Django, Flask, FastAPI, and modern front-end technologies. Experienced in designing scalable database systems with MySQL, PostgreSQL, and MongoDB. Passionate about solving complex technical problems, developing efficient software solutions, and continuously learning new technologies. Strong background in data processing, machine learning tools, and cloud-based solutions.</p>
+                    <ul class="social-link">
+                        <li><a href="https://github.com/rezagharahgozli" alt="github"> <img class="social" src="{% static 'images/github.png' %}" ></a></li>
+                        <li><a href="https://www.linkedin.com/in/rezagharahgozlee"> <img class="social" src="{% static 'images/linkedin.png' %}" ></a></li>
+                        <li><a href="https://www.facebook.com/mohammad.gharahgozlee"><img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+                        <li><a href="https://x.com/mohamma76250792"><img class="social" src="{% static 'images/twitter.png' %}"></a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+    <div class="col-md-6">
+        <div class="card card-body section-card h-100">
+            <h3>Skills</h3>
+            <hr>
+            <ul class="skill">
+                <li><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></li>
+                <li><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"></li>
+                <li><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/ScikitLearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"></li>
+                <li><img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"></li>
+                <li><img src="https://img.shields.io/badge/ApacheSpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card card-body section-card h-100">
+            <h3>Projects</h3>
+            <hr>
+
+            <div class="project-box">
+                <h5>Student Registration System</h5>
+                <p>Desktop application for managing student information with a clean user interface.</p>
+            </div>
+
+            <div class="project-box">
+                <h5>Voice Recorder App</h5>
+                <p>Python-based application for recording and saving audio files with a simple GUI.</p>
+            </div>
+
+            <div class="project-box">
+                <h5>Inventory Management System</h5>
+                <p>Web-based CRUD application for adding, editing, and deleting products.</p>
+            </div>
+
+            <div class="project-box">
+                <h5>Portfolio Website</h5>
+                <p>Personal website built with Django, HTML, CSS, and Bootstrap.</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body section-card h-100">
+                    <h3>Education</h3>
+                    <hr>
+
+                    <div class="edu-box">
+                        <h5>Master in Computer Software Engineering</h5>
+                        <p>Islamic Azad University, Tehran</p>
+                    </div>
+
+                    <div class="edu-box">
+                        <h5>Bachelor in Computer Software Engineering</h5>
+                        <p>Islamic Azad University, Tehran</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-md-6">
+                <div class="card card-body section-card h-100">
+                    <h3>Contact</h3>
+                    <hr>
+
+                    <p><strong>Name:</strong> Mohammadreza Gharahgozlee</p>
+                    <p><strong>Email:</strong> rezagharahgozlee@outlook.com</p>
+                    <p><strong>GitHub:</strong> github.com/rezagharahgozli</p>
+                    <p><strong>Location:</strong> Quebec, Canada</p>
+
+                    <a class="btn btn-dark btn-custom" href="{% static 'file/CV-mohammadrezaGharahgozleeEnglish.pdf' %}">Download CV</a>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+</body>
+</html>

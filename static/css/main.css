@@ -1,0 +1,80 @@
+body{
+    background-color: #F8F8F8!important;
+}
+
+#profile-wrapper{
+    text-align: center;
+}
+#profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+ul{
+    padding:0;
+    list-style-type: none;
+}
+.social-link ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social{
+    width: 20px;
+    height: 20px;
+}
+.skill{
+    list-style:none;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:0;
+}
+
+.skill li{
+    display:inline-block;
+}
+
+.skill img{
+    height:24px;
+}
+.project-box,
+.exp-box,
+.edu-box{
+    background:#fafafa;
+    border-left:4px solid #007bff;
+    padding:12px 15px;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.project-box h5,
+.exp-box h5,
+.edu-box h5{
+    margin-bottom:6px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.project-box p,
+.exp-box p,
+.edu-box p{
+    margin-bottom:0;
+    font-size:14px;
+    line-height:1.6;
+}
+
+.exp-box small{
+    display:block;
+    margin-bottom:8px;
+    color:#777;
+}
+
+.btn-custom{
+    margin-top:10px;
+    border-radius:8px;
+    padding:10px 18px;
+}
