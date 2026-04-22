@@ -69,7 +69,7 @@ personal_site
 Clone the repository
 
 
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/rezagharahgozli/portfolio.git
 
 
 Go to project folder
